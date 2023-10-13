@@ -1,32 +1,60 @@
-
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Ma Page d'Index</title>
-	<link rel="stylesheet" type="text/css" href="index.css">
-</head>
-<body>
-    <header>
-        <h1>Bienvenue sur ma Page d'Index</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="questionnaire.html"> MISSIONS4 </a></li>
-            <li><a href="cv.html"> MISSION5 </a></li>
-            <li><a href="sitewebfinale.html"> BASE DE DONNEES </a></li>
-            <li><a href="#"> JAVASCRIPT </a></li>
-        </ul>
-    </nav>
-    <main>
-        <section>
-            <h2> voici mon site web de 1 er année de BTS SIO </h2>
-            <p> au dessus vous verrez tout mes travaux </p>
-        </section>
+<title>Menu site web</title>
+	    <meta charset="utf-8">
+	    <meta name="viewport" content="width=device-width, initial-scale=1">
+	    <link rel="stylesheet" type="text/css" href="indexprincipale.css">
         
-    </main>
-    <footer>
+    </head>
+    <body>
+        <nav>
+            <label for="menu-mobile" class="menu-mobile">Menu</label>
+            <input type="checkbox" id="menu-mobile" role="button">
+            <ul>
+            	<li class="menu-html"><a href="#">MISSION</a>
+            	    <ul class="submenu">
+            	        <li><a href="#">MISSION2</a></li>
+            	        <li><a href="#">MISSION3</a></li>	
+            	        <li><a href="#">MISSION4</a></li>
+                        <li><a href="#">MISSION5</a></li>
+            	        <li><a href="#">MISSION6</a></li>
+                    </ul>
+                </li>
+                <li class="menu-js"><a href="#">Javascript</a>
+                	<ul class="submenu">
+                	   <li><a href="#">javascript1</a></li>
+                	</ul>
+                </li>
+                
 
-	    
-    </footer>
-</body>
+
+
+                
+            
+                <li class="menu-mission"><a href="#">certification</a>
+                    <ul class="submenu">
+                    	<li><a href="#">CERTIFICATION 1</a></li>
+                        <li><a href="#">CERTIFICATION 2</a></li>
+                        <li><a href="#">CERTIFICATION 3 </a></li>
+                        <li><a href="#">CERTIFICATION 4</a></li>
+                        <li><a href="#">CERTIFICATION 5</a></li>
+                       
+                    </ul>         
+                </li>
+                
+
+                <li class="menu-presentation"><a href="#">TP</a>
+                    <ul class="submenu">
+                    	<li><a class="pres" href="#">TP1</a></li>
+                    	<li><a class="pres" href="#">TP2</a></li>
+                    	<li><a class="pres" href="#">TP3</a></li>
+                    	<li><a class="pres" href="#">TP4</a></li>
+                    </ul>         
+                </li>
+            </ul>
+        </nav>
+        <iframe  src="pprincipale.html" width="100%" name="f1" scrolling="no"></iframe>
+            <style>
+                html, body, iframe { height: 150%; }
+                html { overflow: hidden; }
+            </style>
+    </body>
 </html>
